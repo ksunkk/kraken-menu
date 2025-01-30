@@ -1,0 +1,89 @@
+doctype html
+html lang="ru"
+  head
+    meta charset="UTF-8"
+    title Меню напитков
+    style
+      |
+        body {
+          margin: 40px;
+          font-family: "Helvetica Neue", Arial, sans-serif;
+        }
+
+        h1 {
+          text-transform: uppercase;
+          font-size: 28px;
+          margin-bottom: 5px;
+        }
+
+        .subtitle {
+          color: #555;
+          margin-bottom: 30px;
+        }
+
+        .section-title {
+          font-size: 20px;
+          text-transform: uppercase;
+          border-bottom: 1px solid #000;
+          margin: 40px 0 20px;
+          font-weight: bold;
+        }
+
+        .menu-item {
+          margin-bottom: 1.2rem;
+        }
+
+        .item-heading {
+          display: flex;
+          align-items: center;
+        }
+
+        .item-name {
+          font-weight: bold;
+          font-size: 18px;
+          white-space: nowrap;
+        }
+
+        .dots {
+          flex: 1;
+          border-bottom: 2px dotted #000;
+          margin: 0 10px;
+          transform: translateY(1px);
+        }
+
+        .price {
+          white-space: nowrap;
+          font-size: 16px;
+        }
+
+        .item-description {
+          font-size: 14px;
+          font-style: italic;
+          color: #666;
+          margin-top: 5px;
+        }
+
+  body
+    h1 Menu
+
+    - category_titles = { "cocktails" => "Cocktails", "draft_beer" => "Draft Beer", "bottled_beer" => "Canned&Bottled Beer", "non_alcoholic" => "Non Alcoholic Drinks" }
+
+    - menu.each do |category_key, drinks|
+      - category_name = category_titles[category_key] || category_key
+
+      h2.section-title= category_name
+
+      - drinks.each do |drink|
+        .menu-item
+          .item-heading
+            span.item-name= drink["name"]
+            .dots
+            - if category_key == "draft_beer"
+              span.price
+                | 0.3: #{drink['price_0_3']} rsd. /
+                |  0.5: #{drink['price_0_5']} rsd. /
+                |  1.0: #{drink['price_1_0']} rsd.
+            - else
+              span.price= "#{drink['price']} rsd."
+
+          .item-description= drink["description"]

@@ -1,0 +1,119 @@
+draft_beer:
+  - name: "St. Stefan"
+    description: "Wheat Beer, 5%"
+    price_0_3: 270
+    price_0_5: 320
+    price_1_0: 600
+    available: true
+
+  - name: "Trabanco"
+    description: "Sajder, 4,5%"
+    price_0_3: 450
+    price_0_5: 500
+    price_1_0: 1000
+    available: true
+
+  - name: "Honey I'm Drunk"
+    description: "DIPA, 8%"
+    price_0_3: 420
+    price_0_5: 470
+    price_1_0: 940
+    available: true
+
+  - name: "Odžačar"
+    description: "Stout, 5,5%"
+    price_0_3: 300
+    price_0_5: 350
+    price_1_0: 700
+    available: true
+
+cocktails:
+  - name: "Negroni"
+    description: "gin/vermouth rosso/campari"
+    price: 350
+    available: true
+  - name: "Rosso Tonic"
+    description: "vermouth rosso/tonic"
+    price: 400
+    available: true
+  - name: "Gin Tonic"
+    description: "gin/tonic"
+    price: 400
+    available: true
+  - name: "Whysky Cola"
+    description: "whisky/coca-cola"
+    price: 400
+    available: true
+  - name: "Bianco Orange"
+    description: "white vermouth/orange juice"
+    price: 400
+    available: true
+  - name: "Campari Tonic"
+    description: "campari/tonic"
+    price: 400
+    available: true
+  - name: "Orange Bitter"
+    description: "vermouth rosso/campari"
+    price: 400
+    available: true
+bottled_beer:
+  - name: "Bermuda square"
+    description: "ZBIR, Cold IPA, 5,9%"
+    price: 500
+    available: true
+
+  - name: "Ciaone"
+    description: "Dogma, Italian Pilsner, 5%"
+    price: 500
+    available: true
+
+  - name: "Flying Dogma"
+    description: "Dogma, Galaxy  IPA, 6.6%"
+    price: 500
+    available: true
+
+  - name: "Cryozaik"
+    description: "ZBIR, DDH NEIPA, 4.8%"
+    price: 500
+    available: true
+
+  - name: "Decko Tzar"
+    description: "Dogma, Witbier, 5%"
+    price: 500
+    available: true
+
+  - name: "Loki"
+    description: "HOG, Amber Ale, 5.8%"
+    price: 500
+    available: true
+
+  - name: "Honey I'm Drunk"
+    description: "Ravangrad, DIPA, 8%"
+    price: 500
+    available: true
+
+  - name: "Fragments"
+    description: "6th Street Brewery, Session Pale Ale, 4,5%"
+    price: 500
+    available: true
+
+  - name: "Memento Mori"
+    description: "ZBIR, Coffee Stout, 7%"
+    price: 500
+    available: true
+
+  - name: "Muma Paduri"
+    description: "Dogma, Mountain  IPA, 7.2%"
+    price: 500
+    available: true
+
+
+non_alcoholic:
+  - name: "Club Mate"
+    description: ""
+    price: 350
+    available: true
+  - name: "Club Mate Cola"
+    description: ""
+    price: 350
+    available: true
