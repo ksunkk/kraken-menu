@@ -74,6 +74,8 @@ html lang="ru"
       h2.section-title= category_name
 
       - drinks.each do |drink|
+        - next unless drink["available"]
+
         .menu-item
           .item-heading
             span.item-name= drink["name"]
