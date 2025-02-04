@@ -66,7 +66,7 @@ html lang="ru"
   body
     h1 Menu
 
-    - category_titles = { "cocktails" => "Cocktails", "draft_beer" => "Draft Beer", "bottled_beer" => "Canned&Bottled Beer", "non_alcoholic" => "Non Alcoholic Drinks" }
+    - category_titles = { "cocktails" => "Cocktails", "draft_beer" => "Draft Beer", "bottled_beer" => "Canned&Bottled Beer", "snacks" => "Snacks", "non_alcoholic" => "Non Alcoholic Drinks" }
 
     - menu.each do |category_key, drinks|
       - category_name = category_titles[category_key] || category_key
