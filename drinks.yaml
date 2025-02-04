@@ -18,6 +18,13 @@ draft_beer:
     price_0_3: 420
     price_0_5: 470
     price_1_0: 940
+    available: false
+
+  - name: "Honolulu Grooves"
+    description: "IPA, 7.2%"
+    price_0_3: 400
+    price_0_5: 450
+    price_1_0: '-'
     available: true
 
   - name: "Odžačar"
@@ -28,33 +35,37 @@ draft_beer:
     available: true
 
 cocktails:
-  - name: "Negroni"
-    description: "gin/vermouth rosso/campari"
+  - name: "Kraken's Blood"
+    description: "gin/vermouth rosso/bitter"
+    price: 450
+    available: true
+  - name: "Mermaid's Sigh"
+    description: "vermouth rosso/tonic"
     price: 350
     available: true
-  - name: "Rosso Tonic"
-    description: "vermouth rosso/tonic"
-    price: 400
-    available: true
-  - name: "Gin Tonic"
+  - name: "Leviathan's Mist,"
     description: "gin/tonic"
     price: 400
     available: true
-  - name: "Whysky Cola"
-    description: "whisky/coca-cola"
+  - name: "Black Whirlpool"
+    description: "whisky/cola"
     price: 400
     available: true
-  - name: "Bianco Orange"
+  - name: "White Reef"
     description: "white vermouth/orange juice"
-    price: 400
+    price: 250
     available: true
-  - name: "Campari Tonic"
-    description: "campari/tonic"
-    price: 400
+  - name: "Siren's Venom"
+    description: "bitter/tonic"
+    price: 350
     available: true
-  - name: "Orange Bitter"
-    description: "vermouth rosso/campari"
-    price: 400
+  - name: "Bitterness of the Sea"
+    description: "vermouth rosso/bitter"
+    price: 450
+    available: true
+  - name: "Golden Trident"
+    description: "vodka/orange juice"
+    price: 350
     available: true
 
 bottled_beer:
