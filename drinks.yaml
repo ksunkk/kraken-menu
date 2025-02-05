@@ -71,27 +71,27 @@ cocktails:
 bottled_beer:
   - name: "Bermuda square 0.5l"
     description: "ZBIR, Cold IPA, 5,9%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Ciaone 0.5l"
     description: "Dogma, Italian Pilsner, 5%"
-    price: 610
+    price: 510
     available: true
 
   - name: "Flying Dogma 0.5l"
     description: "Dogma, Galaxy  IPA, 6.6%"
-    price: 700
+    price: 580
     available: true
 
   - name: "Cryozaik 0.5l"
     description: "ZBIR, DDH NEIPA, 4.8%"
-    price: 550
+    price: 460
     available: true
 
   - name: "Decko Tzar 0.5l"
     description: "Dogma, Witbier, 5%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Loki 0.5l"
@@ -101,58 +101,58 @@ bottled_beer:
 
   - name: "Honey I'm Drunk 0,33l"
     description: "Ravangrad, DIPA, 8%"
-    price: 420
+    price: 350
     available: true
 
   - name: "Ragnar 0.5l"
     description: "HOG, APA, 5.2%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Memento Mori 0.5l"
     description: "ZBIR, Coffee Stout, 7%"
-    price: 620
+    price: 520
     available: true
 
   - name: "Muma Paduri 0.5l"
     description: "Dogma, Mountain  IPA, 7.2%"
-    price: 700
+    price: 580
     available: true
 
   - name: "Juice IPA 0.5l"
     description: "ZBIR, DDH IPA, 6.6%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Nice Rice 0.5l"
     description: "Dogma, Rice Lager, 4.5%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Raspberry Mint 0.5l"
     description: "Dogma, Sour, 3.8%"
-    price: 680
+    price: 570
     available: true
 
   - name: "Sombor 0.33l"
     description: "Ravangrad, Sour, 5%"
-    price: 420
+    price: 350
     available: true
 
   - name: "London pride 0.5l"
     description: "Fuller's, Amber Ale, 4.7%"
-    price: 630
+    price: 520
     available: true
 
   - name: "Sunday Morning Sour 0.5l"
     description: "ZBIR, Fruited Sour, 6.2%"
-    price: 720
+    price: 600
     available: true
 
   - name: "Mjolnir 0.5l"
     description: "HOG, NEIPA, 6.4%"
-    price: 660
-    available: true
+    price: 550
+    available: false
 
   - name: "Zbirokrator 0.5l"
     description: "ZBIR, NEIPA, 5.7%"
@@ -161,68 +161,68 @@ bottled_beer:
 
   - name: "Fonciela 0.7l"
     description: "Španija, suvi sajder"
-    price: 1000
+    price: 850
     available: true
 
   - name: "Siberian Barbarian 0.5l"
     description: "ZBIR, Imperial Stout, 9.5%"
-    price: 720
+    price: 600
     available: true
 
   - name: "Thor 0.5l"
     description: "HOG, IPA, 6,5%"
-    price: 660
+    price: 550
     available: true
 
-  - name: "1845 0.5l"
+  - name: "Fullers 1845 0.5l"
     description: "Fuller's, Strong Ale, 6.3%"
-    price: 660
+    price: 550
     available: true
 
   - name: "Bloody Rosemary 0.5l"
     description: "Dogma, Sour, 4%"
-    price: 680
+    price: 570
     available: true
 
 
 snacks:
   - name: "Kikiriki 40g"
     description: "Slani"
-    price: 120
+    price: 100
     available: true
 
   - name: "Long Chips 100g"
     description: "Sa paprikom"
-    price: 280
+    price: 230
     available: false
 
   - name: "Mega Chips 50g"
     description: "Slani"
-    price: 180
+    price: 150
     available: false
 
   - name: "Brusket MARETTI, 70 g"
     description: "Pizza dvopek"
-    price: 180
+    price: 150
     available: true
 
 non_alcoholic:
   - name: "Club mate, 0.33 l"
     description: "Njemačka, bezalcoholni lemonade"
-    price: 420
+    price: 350
     available: true
 
   - name: "Club mate cola, 0.33 l"
     description: "Njemačka, bezalcoholni lemonade"
-    price: 420
+    price: 350
     available: true
 
   - name: "Rothaus beer, 0.33 l"
     description: "Njemačka, bezalcoholno pivo"
-    price: 480
+    price: 400
     available: true
 
   - name: "Pecado Sin Alcohol Free 0.33l"
     description: "Španija, slatki bezalcoholni sajder"
-    price: 600
+    price: 500
     available: false
