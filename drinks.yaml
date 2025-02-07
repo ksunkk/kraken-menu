@@ -43,7 +43,7 @@ cocktails:
     description: "vermouth rosso/tonic"
     price: 350
     available: true
-  - name: "Leviathan's Mist,"
+  - name: "Leviathan's Mist"
     description: "gin/tonic"
     price: 400
     available: true
@@ -87,7 +87,7 @@ bottled_beer:
   - name: "Cryozaik 0.5l"
     description: "ZBIR, DDH NEIPA, 4.8%"
     price: 460
-    available: true
+    available: false
 
   - name: "Decko Tzar 0.5l"
     description: "Dogma, Witbier, 5%"
@@ -96,7 +96,7 @@ bottled_beer:
 
   - name: "Loki 0.5l"
     description: "HOG, Amber Ale, 5.8%"
-    price: 600
+    price: 500
     available: true
 
   - name: "Honey I'm Drunk 0,33l"
