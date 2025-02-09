@@ -18,14 +18,14 @@ draft_beer:
     price_0_3: 420
     price_0_5: 470
     price_1_0: 940
-    available: false
+    available: true
 
   - name: "Honolulu Grooves"
     description: "IPA, 7.2%"
     price_0_3: 400
     price_0_5: 450
     price_1_0: '-'
-    available: true
+    available: false
 
   - name: "Odžačar"
     description: "Stout, 5,5%"
@@ -69,9 +69,9 @@ cocktails:
     available: true
 
 bottled_beer:
-  - name: "Bermuda square 0.5l"
+  - name: "POPUST Bermuda square 0.5l"
     description: "ZBIR, Cold IPA, 5,9%"
-    price: 500
+    price: 300
     available: true
 
   - name: "Ciaone 0.5l"
@@ -194,7 +194,7 @@ snacks:
   - name: "Long Chips 100g"
     description: "Sa paprikom"
     price: 230
-    available: false
+    available: true
 
   - name: "Mega Chips 50g"
     description: "Slani"
